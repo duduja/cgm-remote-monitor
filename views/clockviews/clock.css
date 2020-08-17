@@ -50,6 +50,5 @@ main {
 }
 
 #clock {
-  font-weight: 700;
-  font-size: 25vmin;
+  display: none;
 }

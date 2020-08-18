@@ -146,6 +146,7 @@ function create(env, ctx) {
         "/translations": "translationsindex.html",
         "/clock.html": "clock.html",
         "/hud.html":"hud.html",
+        "/zegar.html":"zegar.html",
     };
 
     Object.keys(appPages).forEach(function (page) {

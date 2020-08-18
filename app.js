@@ -144,8 +144,7 @@ function create(env, ctx) {
         "/bgclock.html": "bgclock.html",
         "/report": "reportindex.html",
         "/translations": "translationsindex.html",
-        "/clock.html": "clock.html",
-        "/hud.html": "hud.html",
+        "/clock.html": "clock.html"
     };
 
     Object.keys(appPages).forEach(function (page) {

@@ -25,11 +25,6 @@ main {
   -webkit-transform: translateY(-5%);
 }
 
-#bgnow {
-  font-weight: 700;
-  font-size: 40vmin;
-}
-
 #trend {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -43,23 +38,27 @@ main {
   flex-direction: column;
 }
 
-#arrowDiv {
-  flex-grow: 1;
-  text-align: center;
+#bgnow, #arrowDiv {
+  display: flex;
+  flex-grow: 0;
+  font-weight: 700;
+  font-size: 30vmin;
+  padding: 0 20px;
+  margin: 0;
 }
 
 img#arrow {
-  height: 30vmin;
-}
-
-#staleTime {
-  flex-grow: 1;
-  font-size: 6vmin;
-  display: none;
+  height: 18vmin;
+  filter: brightness(50%);
+  -webkit-transform: translateY(5%);
 }
 
 #clock {
   font-weight: 700;
   font-size: 25vmin;
-  display: inline;
+}
+#staleTime {
+  flex-grow: 1;
+  font-size: 6vmin;
+  display: none;
 }

@@ -4,8 +4,8 @@ body {
   padding: 0;
   overflow: hidden;
   font-family: 'Open Sans';
-  color: brown;
-  background-color: black;
+  color: white;
+  background-color: white;
 }
 
 main {
@@ -25,6 +25,11 @@ main {
   -webkit-transform: translateY(-5%);
 }
 
+#bgnow {
+  font-weight: 700;
+  font-size: 40vmin;
+}
+
 #trend {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -38,27 +43,21 @@ main {
   flex-direction: column;
 }
 
-#bgnow, #arrowDiv {
-  display: flex;
-  flex-grow: 0;
-  font-weight: 700;
-  font-size: 30vmin;
-  padding: 0 20px;
-  margin: 0;
+#arrowDiv {
+  flex-grow: 1;
+  text-align: center;
 }
 
 img#arrow {
-  height: 18vmin;
-  filter: brightness(50%);
-  -webkit-transform: translateY(5%);
+  height: 30vmin;
 }
 
-#clock {
-  font-weight: 700;
-  font-size: 25vmin;
-}
 #staleTime {
   flex-grow: 1;
   font-size: 6vmin;
+  display: none;
+}
+
+#clock {
   display: none;
 }

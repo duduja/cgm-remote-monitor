@@ -46,17 +46,16 @@ main {
   margin: 0;
 
 img#arrow {
-  height: 18vmin;
-  filter: brightness(20%);
+  height: 30vmin;
   -webkit-transform: translateY(5%);
 }
 
 #staleTime {
   flex-grow: 1;
   font-size: 6vmin;
+  display: flex;
 }
   #staleTime {
-  flex-grow: 10;
   font-size: 16vmin;
   display: none;
 }

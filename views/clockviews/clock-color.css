@@ -38,7 +38,7 @@ main {
 }
 #staleTime {
   font-size: 30vmin;
-  display: none;
+  display: block;
 }
 #bgnow, #arrowDiv {
   display: flex;
@@ -49,21 +49,13 @@ main {
   margin: 0;
 
 img#arrow {
-  width: 10%;
-  filter: brightness(50%);
+  font-size: 6vmin;
+  font-weight: 300;
+  filter: brightness(100%);
   height: 5vmin;
   -webkit-transform: translateY(5%);
 }
 
-#staleTime {
-  flex-grow: 1;
-  font-size: 6vmin;
-  display: flex;
-}
-#staleTime {
-  font-size: 30vmin;
-  display: none;
-}
 
 #delta {
   font-size: 16vmin;
@@ -74,44 +66,7 @@ img#arrow {
   font-weight: 500;
   font-size: 25vmin;
 }
-//tu
-  
-  #staleTime {
-  flex-grow: 1;
-  font-size: 6vmin;
-  display: none;
-}
 
-#staleTime {
-  flex-grow: 1;
-  font-size: 100vmin;
-  display: none;
-}
-#staleTime {
-  
-  font-size: 6vmin;
-  display: flex;
-}
-
-#staleTime {
-  flex-grow: 1;
- 
-  display: flex;
-}
-
-#staleTime {
-  flex-grow: 1;
-  font-size: 6vmin;
-  display: flex;
-}
-
-#staleTime  {
-  font-weight: 500;
-  font-size: 25vmin;
-}
-  
-  
-  //tu
 .close {
   color: white;
   font: 4em 'Open Sans';
@@ -129,8 +84,5 @@ img#arrow {
   transition: opacity 0.5s linear;
 }
 .stale {
-  text-decoration: line-through;
-}
-#stale {
   text-decoration: line-through;
 }

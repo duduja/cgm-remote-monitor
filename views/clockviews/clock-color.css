@@ -47,13 +47,18 @@ main {
 
 img#arrow {
   height: 18vmin;
-  filter: brightness(50%);
+  filter: brightness(20%);
   -webkit-transform: translateY(5%);
 }
 
 #staleTime {
   flex-grow: 1;
   font-size: 6vmin;
+  display: none;
+}
+  #staleTime {
+  flex-grow: 10;
+  font-size: 16vmin;
   display: none;
 }
 

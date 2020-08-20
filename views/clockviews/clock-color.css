@@ -47,12 +47,11 @@ main {
 
 img#arrow {
   font-size: 6vmin;
-  font-weight: 300;
+  font-weight: 10;
   filter: brightness(100%);
-  height: 5vmin;
+  height: 1vmin;
   -webkit-transform: translateY(5%);
 }
-
 
 #delta {
   font-size: 16vmin;
@@ -62,22 +61,6 @@ img#arrow {
 #clock {
   font-weight: 500;
   font-size: 25vmin;
-}
-  #staleTime {
-  font-size: 30vmin;
-  display: block;
-}
-  #staleTime {
-  font-size: 30vmin;
-  display: none;
-}
-  .staleTime {
-  font-size: 30vmin;
-  display: block;
-}
-  #showLastTime {
-  font-size: 30vmin;
-  display: block;
 }
 
 .close {

@@ -36,22 +36,28 @@ main {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
+#staleTime {
+  flex-grow: 1;
+  font-size: 6vmin;
+  display: none;
+}
 
-#bgnow, #arrowDiv {
+#staleTime {
+  flex-grow: 1;
+  font-size: 100vmin;
+  display: none;
+}
+#staleTime {
+  
+  font-size: 6vmin;
   display: flex;
-  flex-grow: 0;
-  font-weight: 700;
-  font-size: 30vmin;
-  padding: 0 20px;
-  margin: 0;
-}
-img#arrow {
-  height: 18vmin;
-  filter: brightness(50%);
-  -webkit-transform: translateY(5%);
 }
 
-
+#staleTime {
+  flex-grow: 1;
+ 
+  display: flex;
+}
 
 #staleTime {
   flex-grow: 1;
@@ -59,7 +65,10 @@ img#arrow {
   display: flex;
 }
 
-
+#staleTime  {
+  font-weight: 500;
+  font-size: 25vmin;
+}
 #clock {
   font-weight: 500;
   font-size: 25vmin;

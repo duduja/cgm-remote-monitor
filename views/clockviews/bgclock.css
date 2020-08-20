@@ -57,6 +57,6 @@ img#arrow {
   font-size: 25vmin;
 }
 
-.stale {
+#stale {
   text-decoration: line-through;
 }

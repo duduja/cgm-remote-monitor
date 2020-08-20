@@ -36,7 +36,10 @@ main {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
-
+#staleTime {
+  font-size: 30vmin;
+  display: none;
+}
 #bgnow, #arrowDiv {
   display: flex;
   flex-grow: 0;
@@ -46,7 +49,7 @@ main {
   margin: 0;
 
 img#arrow {
-  height: 30vmin;
+  height: 5vmin;
   -webkit-transform: translateY(5%);
 }
 
@@ -55,8 +58,8 @@ img#arrow {
   font-size: 6vmin;
   display: flex;
 }
-  #staleTime {
-  font-size: 16vmin;
+#staleTime {
+  font-size: 30vmin;
   display: none;
 }
 

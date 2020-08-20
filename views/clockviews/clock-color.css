@@ -49,7 +49,8 @@ main {
   margin: 0;
 
 img#arrow {
-  filter: brightness(5%);
+  width: 10%;
+  filter: brightness(50%);
   height: 5vmin;
   -webkit-transform: translateY(5%);
 }
@@ -73,7 +74,44 @@ img#arrow {
   font-weight: 500;
   font-size: 25vmin;
 }
+//tu
+  
+  #staleTime {
+  flex-grow: 1;
+  font-size: 6vmin;
+  display: none;
+}
 
+#staleTime {
+  flex-grow: 1;
+  font-size: 100vmin;
+  display: none;
+}
+#staleTime {
+  
+  font-size: 6vmin;
+  display: flex;
+}
+
+#staleTime {
+  flex-grow: 1;
+ 
+  display: flex;
+}
+
+#staleTime {
+  flex-grow: 1;
+  font-size: 6vmin;
+  display: flex;
+}
+
+#staleTime  {
+  font-weight: 500;
+  font-size: 25vmin;
+}
+  
+  
+  //tu
 .close {
   color: white;
   font: 4em 'Open Sans';
@@ -91,5 +129,8 @@ img#arrow {
   transition: opacity 0.5s linear;
 }
 .stale {
+  text-decoration: line-through;
+}
+#stale {
   text-decoration: line-through;
 }

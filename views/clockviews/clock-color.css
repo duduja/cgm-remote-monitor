@@ -83,3 +83,6 @@ img#arrow {
   opacity: 0;
   transition: opacity 0.5s linear;
 }
+.stale {
+  text-decoration: line-through;
+}

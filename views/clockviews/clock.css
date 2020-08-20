@@ -25,11 +25,19 @@ main {
   -webkit-transform: translateY(-5%);
 }
 
-#bgnow {
+#bgnow, #arrowDiv {
+  display: flex;
+  flex-grow: 0;
   font-weight: 700;
-  font-size: 40vmin;
+  font-size: 30vmin;
+  padding: 0 20px;
+  margin: 0;
 }
-
+img#arrow {
+  height: 18vmin;
+  filter: brightness(50%);
+  -webkit-transform: translateY(5%);
+}
 #trend {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -43,14 +51,6 @@ main {
   flex-direction: column;
 }
 
-#arrowDiv {
-  flex-grow: 1;
-  text-align: center;
-}
-
-img#arrow {
-  height: 30vmin;
-}
 
 #staleTime {
   flex-grow: 1;

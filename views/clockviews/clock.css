@@ -38,6 +38,15 @@ img#arrow {
   filter: brightness(50%);
   -webkit-transform: translateY(5%);
 }
+
+
+
+#staleTime {
+  flex-grow: 1;
+  font-size: 6vmin;
+  display: flex;
+}
+
 #trend {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -51,17 +60,8 @@ img#arrow {
   flex-direction: column;
 }
 
-
-#staleTime {
-  flex-grow: 1;
-  font-size: 6vmin;
-  display: none;
-}
-
-
-
 #clock {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 25vmin;
 }
 

@@ -4,8 +4,8 @@ body {
   padding: 0;
   overflow: hidden;
   font-family: 'Open Sans';
-  color: white;
-  background-color: white;
+  color: grey;
+  background-color: black;
 }
 
 main {
@@ -22,7 +22,19 @@ main {
 
 .inner {
   width: 100%;
-  -webkit-transform: translateY(-5%);
+  -webkit-transform: translateY(-2%);
+}
+#trend {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-transform: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
 
 #bgnow, #arrowDiv {
@@ -47,18 +59,6 @@ img#arrow {
   display: flex;
 }
 
-#trend {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -webkit-transform: translateX(1%);
-  align-items: center;
-  justify-content: center;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-}
 
 #clock {
   font-weight: 500;
@@ -80,4 +80,7 @@ img#arrow {
 .hidden {
   opacity: 0;
   transition: opacity 0.5s linear;
+}
+.stale {
+  text-decoration: line-through;
 }

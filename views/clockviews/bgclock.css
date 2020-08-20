@@ -47,8 +47,9 @@ main {
 }
 
 img#arrow {
+  width: 10%;
   height: 18vmin;
-  filter: brightness(50%);
+  filter: brightness(100%);
   -webkit-transform: translateY(5%);
 }
 

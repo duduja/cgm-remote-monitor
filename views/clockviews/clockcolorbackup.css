@@ -4,7 +4,7 @@ body {
   padding: 0;
   overflow: hidden;
   font-family: 'Open Sans';
-  color: white;
+  color: blue;
   background-color: white;
 }
 
@@ -22,12 +22,7 @@ main {
 
 .inner {
   width: 100%;
-  -webkit-transform: translateY(-5%);
-}
-
-#bgnow {
-  font-weight: 700;
-  font-size: 40vmin;
+  -webkit-transform: translateY(-2%);
 }
 
 #trend {
@@ -36,37 +31,44 @@ main {
   display: flex;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  -webkit-transform: translateX(1%);
   align-items: center;
   justify-content: center;
-  -webkit-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
+#bgnow, #arrowDiv {
+  display: flex;
+  flex-grow: 0;
+  font-weight: 700;
+  font-size: 6vmin;
+  padding: 0 20px;
+  margin: 0;
 
 #arrowDiv {
-  flex-grow: 1;
-  text-align: center;
-}
+  display: flex;
+  flex-grow: 0;
+  font-weight: 700;
+  font-size: 6vmin;
+  padding: 0 20px;
+  margin: 0;
 
 img#arrow {
-  height: 30vmin;
-}
-
-#staleTime {
-  flex-grow: 1;
-  font-size: 6vmin;
-  display: none;
+  height: 18vmin;
+  filter: brightness(100%);
+  -webkit-transform: translateY(5%);
 }
 
 #delta {
-  font-size: 16vmin;
+  font-size: 500vmin;
   display: none;
 }
 
 #clock {
-  display: none;
+  font-weight: 1700;
+  font-size: 500vmin;
+  color: brown;
 }
-
+Jaka baza ustawiona plus ile
 .close {
   color: white;
   font: 4em 'Open Sans';
@@ -82,4 +84,7 @@ img#arrow {
 .hidden {
   opacity: 0;
   transition: opacity 0.5s linear;
+}
+.stale {
+  text-decoration: line-through;
 }

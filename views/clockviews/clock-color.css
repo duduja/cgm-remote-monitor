@@ -63,7 +63,7 @@ img#arrow {
   font-size: 60vmin;
   color: brown;
 }
-
+Jaka baza ustawiona
 .close {
   color: white;
   font: 4em 'Open Sans';
@@ -79,4 +79,7 @@ img#arrow {
 .hidden {
   opacity: 0;
   transition: opacity 0.5s linear;
+}
+.stale {
+  text-decoration: line-through;
 }

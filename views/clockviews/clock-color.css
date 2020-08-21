@@ -47,8 +47,8 @@ main {
 
 img#arrow {
   display: flex;
-  width: 10%;
-  height: 18vmin;
+  width: 1%;
+  height: 1vmin;
   filter: brightness(100%);
   -webkit-transform: translateY(5%);
 }
@@ -59,8 +59,8 @@ img#arrow {
 }
 
 #clock {
-  font-weight: 700;
-  font-size: 30vmin;
+  font-weight: 1700;
+  font-size: 60vmin;
 }
 
 .close {

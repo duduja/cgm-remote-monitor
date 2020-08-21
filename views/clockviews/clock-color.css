@@ -28,8 +28,8 @@ main {
 #delta {
   display: flex;
   flex-grow: 0;
-  font-weight: 700;
-  font-size: 30vmin;
+  font-weight: 300;
+  font-size: 15vmin;
   padding: 0 20px;
   margin: 0;
 }
@@ -80,12 +80,12 @@ img#arrow {
   text-decoration: line-through;
 }
 #delta {
-  font-weight: 700;
-  font-size: 25vmin;
+  font-weight: 300;
+  font-size: 9vmin;
 }
 #delta {
-  height: 9vmin;
-  filter: brightness(10%);
+  height: 1vmin;
+  filter: brightness(100%);
   -webkit-transform: translateY(5%);
 }
 delta (BG Delta)

@@ -39,7 +39,7 @@ main {
 
 #bgnow, #arrowDiv {
   display: flex;
-  flex-grow: 10;
+  flex-grow: 0;
   font-weight: 700;
   font-size: 3vmin;
   padding: 0 20px;

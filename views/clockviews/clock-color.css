@@ -84,8 +84,8 @@ img#arrow {
   font-size: 25vmin;
 }
 #delta {
-  height: 18vmin;
-  filter: brightness(50%);
+  height: 9vmin;
+  filter: brightness(10%);
   -webkit-transform: translateY(5%);
 }
 delta (BG Delta)

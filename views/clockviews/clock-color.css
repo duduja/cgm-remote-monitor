@@ -37,7 +37,7 @@ main {
   flex-direction: center;
 }
 
-#bgnow {
+#bgnow, #arrowDiv {
   display: flex;
   flex-grow: 0;
   font-weight: 700;

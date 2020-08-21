@@ -46,7 +46,7 @@ main {
   margin: 0;
 
 img#arrow {
-  display: flex;
+  
   width: 1%;
   height: 1vmin;
   filter: brightness(100%);

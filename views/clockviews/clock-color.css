@@ -41,7 +41,7 @@ main {
   display: flex;
   flex-grow: 0;
   font-weight: 700;
-  font-size: 3vmin;
+  font-size: 6vmin;
   padding: 0 20px;
   margin: 0;
 
@@ -55,13 +55,13 @@ img#arrow {
 }
 
 #delta {
-  font-size: 16vmin;
+  font-size: 50vmin;
   display: none;
 }
 
 #clock {
   font-weight: 1700;
-  font-size: 60vmin;
+  font-size: 160vmin;
   color: brown;
 }
 Jaka baza ustawiona

@@ -55,16 +55,16 @@ img#arrow {
 }
 
 #delta {
-  font-size: 50vmin;
+  font-size: 500vmin;
   display: none;
 }
 
 #clock {
   font-weight: 1700;
-  font-size: 160vmin;
+  font-size: 500vmin;
   color: brown;
 }
-Jaka baza ustawiona
+Jaka baza ustawiona plus ile
 .close {
   color: white;
   font: 4em 'Open Sans';

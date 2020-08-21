@@ -1,3 +1,4 @@
+
 body {
   text-align: center;
   margin: 0 0;
@@ -19,12 +20,30 @@ main {
   align-items: center;
   height: 100vh;
 }
-
 .inner {
   width: 100%;
-  -webkit-transform: translateY(-2%);
+  -webkit-transform: translateY(-5%);
 }
 
+#delta {
+  display: flex;
+  flex-grow: 0;
+  font-weight: 700;
+  font-size: 30vmin;
+  padding: 0 20px;
+  margin: 0;
+}
+#delta {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
 #trend {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -36,55 +55,43 @@ main {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
+
 #bgnow, #arrowDiv {
   display: flex;
   flex-grow: 0;
   font-weight: 700;
-  font-size: 6vmin;
+  font-size: 30vmin;
   padding: 0 20px;
   margin: 0;
-
-#arrowDiv {
-  display: flex;
-  flex-grow: 0;
-  font-weight: 700;
-  font-size: 6vmin;
-  padding: 0 20px;
-  margin: 0;
+}
 
 img#arrow {
   height: 18vmin;
-  filter: brightness(100%);
+  filter: brightness(50%);
   -webkit-transform: translateY(5%);
 }
 
-#delta {
-  font-size: 500vmin;
-  display: none;
-}
-
 #clock {
-  font-weight: 1700;
-  font-size: 500vmin;
-  color: brown;
-}
-Jaka baza ustawiona plus ile
-.close {
-  color: white;
-  font: 4em 'Open Sans';
-  position: absolute;
-  right: 20px;
-  text-decoration: none;
+  font-weight: 700;
+  font-size: 25vmin;
 }
 
-.close:after {
-  content: '\00D7';
-}
-
-.hidden {
-  opacity: 0;
-  transition: opacity 0.5s linear;
-}
 .stale {
   text-decoration: line-through;
 }
+#delta {
+  font-weight: 700;
+  font-size: 25vmin;
+}
+#delta {
+  height: 18vmin;
+  filter: brightness(50%);
+  -webkit-transform: translateY(5%);
+}
+delta (BG Delta)
+
+#delta (BG Delta)
+BASAL_RENDER (icicle)
+#BASAL_RENDER (icicle)
+ENABLE="delta"
+#ENABLE="delta"

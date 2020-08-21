@@ -49,6 +49,7 @@ img#arrow {
   
   width: 1%;
   height: 1vmin;
+  font-size: 3vmin;
   filter: brightness(100%);
   -webkit-transform: translateY(5%);
 }

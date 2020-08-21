@@ -61,6 +61,7 @@ img#arrow {
 #clock {
   font-weight: 1700;
   font-size: 60vmin;
+  color: brown;
 }
 
 .close {
@@ -78,7 +79,4 @@ img#arrow {
 .hidden {
   opacity: 0;
   transition: opacity 0.5s linear;
-}
-.stale {
-  text-decoration: line-through;
 }

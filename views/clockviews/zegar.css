@@ -1,11 +1,12 @@
+
 body {
   text-align: center;
   margin: 0 0;
   padding: 0;
   overflow: hidden;
   font-family: 'Open Sans';
-  color: green;
-  background-color: blue;
+  color: blue;
+  background-color: white;
 }
 
 main {
@@ -19,7 +20,6 @@ main {
   align-items: center;
   height: 100vh;
 }
-
 .inner {
   width: 100%;
   -webkit-transform: translateY(-5%);
